@@ -55,4 +55,4 @@ for(i in 4:newSubAct_col){
 
 colnames(tidyData)[3:ncol(tidyData)] <- colnames(mean_sd)
 
-write.table(tidyData, file = "tidyData.txt")
+write.table(tidyData, file = "tidyData.txt",row.name=FALSE)
